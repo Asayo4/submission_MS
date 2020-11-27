@@ -179,7 +179,7 @@ header {
     line-height: 1;
 }
 
-#eyecatch .news .news1 {
+#eyecatch .news1 {
     width: 50%;
     height: 50px;
     background-color: white;
@@ -187,11 +187,10 @@ header {
     top: 550px;
     left: 50%;
     text-align: left;
-    line-height: 20px;
-    margin: 5px;
+    line-height: 25px;
 }
 
-#eyecatch .news .news2 {
+#eyecatch .news2 {
     width: 100px;
     height: 50px;
     color: white;
@@ -211,11 +210,14 @@ header {
     height: 400px;
 }
 
-#about .mission h3 {
+#about .about-title {
     color: white;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
     position: relative;
     top: -170px;
-    left: 50px;
+    left: 40px;
 }
 
 #about .mission p {
@@ -271,7 +273,7 @@ header {
     left: 100px;
 }
 
-#service .servicecard1 .service-card h3 {
+#service .servicecard1 .service-card h2 {
     position: absolute;
     top: 50px;
     left: 100px;
@@ -286,7 +288,7 @@ header {
     width: 60%;
 }
 
-#service .servicecard1 .service-card .詳細button .button {
+#service .servicecard1 .service-card .service-button .button {
     padding: 5px 20px;
     font-size: 14px;
     color: black;
@@ -323,7 +325,7 @@ header {
     right: 100px;
 }
 
-#service .servicecard2 .service-card h3 {
+#service .servicecard2 .service-card h2 {
     position: absolute;
     top: 50px;
     left: 100px;
@@ -338,7 +340,7 @@ header {
     width: 60%;
 }
 
-#service .servicecard2 .service-card .詳細button .button {
+#service .servicecard2 .service-card .service-button .button {
     padding: 5px 20px;
     font-size: 14px;
     color: black;
@@ -382,7 +384,7 @@ header {
     height: 100px;
 }
 
-#company .f-contein .overview .text h3 {
+#company .f-contein .overview .text h2 {
     color: white;
     font-size: 18px;
     position: absolute;
@@ -412,7 +414,7 @@ header {
     height: 100px;
 }
 
-#company .f-contein .recruit .text h3 {
+#company .f-contein .recruit .text h2 {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -474,12 +476,12 @@ header {
     margin: 130px;
 }
 
-#contact h4 {
+#contact h3 {
     text-align: center;
     padding: 0 0 25px;
 }
 
-#contact h1 {
+#contact .large-p {
     text-align: center;
     font-size: 32px;
     font-weight: normal;
